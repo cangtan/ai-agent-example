@@ -6,7 +6,7 @@ API_KEY = config['openai']['api_key']
 BASE_URL = config['openai']['base_url']
 MODEL = config['openai']['model']
 messages = [
-    {"role": "user", "content": "你是谁"}
+    {"role": "user", "content": "什么是TPU"}
 ]
 
 client = OpenAI(
